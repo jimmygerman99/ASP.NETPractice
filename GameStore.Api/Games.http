@@ -1,0 +1,35 @@
+GET http://localhost:5156/games
+
+
+
+###
+GET http://localhost:5156/games/1
+
+###
+
+POST http://localhost:5156/games
+Content-Type: application/json
+
+{
+    "name": "Super Mario Bros",
+    "genre": "PlatFormer",
+    "price": 15.99,
+    "releaseDate": "2023-10-20"
+} 
+
+
+###
+PUT http://localhost:5156/games/5
+Content-Type: application/json
+
+{
+    "name": "Apex legends",
+    "genre": "Battle Royale",
+    "price": 99.99,
+    "releaseDate": "2023-10-20"
+} 
+
+
+### 
+DELETE http://localhost:5156/games/
+

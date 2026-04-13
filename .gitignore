@@ -1,0 +1,41 @@
+## .NET / ASP.NET Core
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Published output
+publish/
+out/
+
+# Secrets / local config (never commit these)
+**/appsettings.Local.json
+**/appsettings.*.Local.json
